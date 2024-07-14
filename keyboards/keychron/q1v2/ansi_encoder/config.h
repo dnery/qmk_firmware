@@ -21,3 +21,13 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 45
+
+// 200 -> 300
+#define TAPPING_TERM 300
+
+// Esc is bootmagic
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 1
+
+// Enable make & loader & flash key
+#define ENABLE_COMPILE_KEYCODE

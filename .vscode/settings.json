@@ -4,10 +4,10 @@
     "editor.insertSpaces": true,
     // Configure glob patterns for excluding files and folders.
     "files.exclude": {
-        "**/.build": true,
-        "**/*.hex": true,
-        "**/*.bin": true,
-        "**/*.uf2": true
+        // "**/.build": true,
+        // "**/*.hex": true,
+        // "**/*.bin": true,
+        // "**/*.uf2": true
     },
     "files.associations": {
         "*.h": "c",
@@ -29,6 +29,12 @@
         "editor.formatOnSave": false
     },
     "clangd.arguments": [
-        "--header-insertion=never"
-    ]
+        "--header-insertion=never",
+        // "--log=verbose",
+        "--pretty",
+        "--background-index",
+    ],
+    // Personal configs: set the default terminal to QMK
+    "terminal.integrated.defaultProfile.windows": "QMK",
+    "C_Cpp.intelliSenseEngine": "disabled",
 }
