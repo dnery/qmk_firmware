@@ -23,7 +23,7 @@
 #define CAPS_LOCK_LED_INDEX 45
 
 // 200 -> 300
-#define TAPPING_TERM 300
+#define TAPPING_TERM 350
 
 // Esc is bootmagic
 #define BOOTMAGIC_ROW 0
